@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 45.0.2454 (Windows 8 0.0.0)" package="" timestamp="2015-09-20T19:45:27" id="0" hostname="rei-desktop" tests="17" errors="0" failures="1" time="0.01">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36"/>
+  </properties>
+  <testcase name="should show messenger 'Continue game!'" time="0.002" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show winner messenger - test01" time="0.002" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show winner messenger - test02" time="0.001" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show winner messenger - test03" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show winner messenger - test04" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show winner messenger - test05" time="0.001" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show winner messenger - test06" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show winner messenger - test07" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show winner messenger - test08" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show winner messenger - test09" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show messenger 'There wasn't winner'" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="move O to X, should show messenger 'X'" time="0.001" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="move X to O, should show messenger 'O'" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="move X to O in firefox browser, should show messenger 'O'" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show messenger 'this box has been selected!' - Value X" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="should show messenger 'this box has been selected!' - Value O" time="0" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test"/>
+  <testcase name="error test" time="0.003" classname="Chrome_45_0_2454_(Windows_8_0_0_0).tic tac toe test">
+    <failure type="">Expected 'X' to equal 'Oops, this box has been selected!'.
+    at Object.&lt;anonymous&gt; (C:/tic_tac_toe-master/jasmine/spec/tic_tac_toe_unit_test_spec.js:67:40)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+,Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: O'
+,Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+,Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+,Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+,Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+,Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+,Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+,Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

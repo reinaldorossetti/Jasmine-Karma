@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Unit Test Results</title>
+    <style type="text/css">html,body{font-family:Arial,sans-serif;margin:0;padding:0;}body{padding:10px 40px;}h1{margin-bottom:0;}h2{margin-top:0;color:#999;}table{width:100%;margin-top:20px;margin-bottom:20px;table-layout:fixed;}tr.header{background:#ddd;font-weight:bold;border-bottom:none;}td{padding:7px;border-top:none;border-left:1px black solid;border-bottom:1px black solid;border-right:none;word-break:break-all;word-wrap:break-word;}tr.pass td{color:#003b07;background:#86e191;}tr.skip td{color:#7d3a00;background:#ffd24a;}tr.fail td{color:#5e0e00;background:#ff9c8a;}tr:first-child td{border-top:1px black solid;}td:last-child{border-right:1px black solid;}tr.overview{font-weight:bold;color:#777;}tr.overview td{padding-bottom:0px;border-bottom:none;}tr.system-out td{color:#777;}hr{height:2px;margin:30px 0;background:#000;border:none;}</style>
+  </head>
+  <body>
+    <h1>Unit Test Results</h1>
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tr class="overview">
+        <td colspan="3" title="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36">Browser: Chrome 45.0.2454 (Windows 8 0.0.0)</td>
+      </tr>
+      <tr class="overview">
+        <td colspan="3">Timestamp: 2015-09-20 17:55:31</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          17 tests / 
+          0 errors / 
+          1 failures / 
+          0 skipped / 
+          runtime: 0.041s
+        </td>
+      </tr>
+      <tr class="header">
+        <td>Status</td>
+        <td>Spec</td>
+        <td>Suite / Results</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.011s</td>
+        <td>should show messenger 'Continue game!'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.02s</td>
+        <td>should show winner messenger - test01</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test02</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test03</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test04</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test05</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test06</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test07</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test08</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test09</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'There wasn't winner'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move O to X, should show messenger 'X'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O in firefox browser, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show messenger 'this box has been selected!' - Value X</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'this box has been selected!' - Value O</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>error test</td>
+        <td>
+          tic tac toe test
+          <br />Expected 'X' to equal 'Oops, this box has been selected!'.
+    at Object.&lt;anonymous&gt; (C:/tic_tac_toe-master/jasmine/spec/tic_tac_toe_unit_test_spec.js:67:40)
+
+        </td>
+      </tr>
+      <tr class="system-out">
+        <td colspan="3"><strong>System output:</strong><br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+</td>
+      </tr>
+    </table>
+    <hr/>
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tr class="overview">
+        <td colspan="3" title="Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0">Browser: Firefox 40.0.0 (Windows 8 0.0.0)</td>
+      </tr>
+      <tr class="overview">
+        <td colspan="3">Timestamp: 2015-09-20 17:55:32</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          17 tests / 
+          0 errors / 
+          1 failures / 
+          0 skipped / 
+          runtime: 0.013s
+        </td>
+      </tr>
+      <tr class="header">
+        <td>Status</td>
+        <td>Spec</td>
+        <td>Suite / Results</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show messenger 'Continue game!'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.003s</td>
+        <td>should show winner messenger - test01</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test02</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test03</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test04</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test05</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test06</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test07</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test08</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test09</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.002s</td>
+        <td>should show messenger 'There wasn't winner'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>move O to X, should show messenger 'X'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O in firefox browser, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'this box has been selected!' - Value X</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show messenger 'this box has been selected!' - Value O</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>error test</td>
+        <td>
+          tic tac toe test
+          <br />Expected 'X' to equal 'Oops, this box has been selected!'.
+@C:/tic_tac_toe-master/jasmine/spec/tic_tac_toe_unit_test_spec.js:67:9
+
+        </td>
+      </tr>
+      <tr class="system-out">
+        <td colspan="3"><strong>System output:</strong><br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+</td>
+      </tr>
+    </table>
+    <hr/>
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tr class="overview">
+        <td colspan="3" title="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2">Browser: Safari 5.1.7 (Windows 8 0.0.0)</td>
+      </tr>
+      <tr class="overview">
+        <td colspan="3">Timestamp: 2015-09-20 17:55:33</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          17 tests / 
+          0 errors / 
+          1 failures / 
+          0 skipped / 
+          runtime: 0.011s
+        </td>
+      </tr>
+      <tr class="header">
+        <td>Status</td>
+        <td>Spec</td>
+        <td>Suite / Results</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.004s</td>
+        <td>should show messenger 'Continue game!'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.003s</td>
+        <td>should show winner messenger - test01</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test02</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test03</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test04</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test05</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test06</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test07</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test08</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test09</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'There wasn't winner'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move O to X, should show messenger 'X'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O in firefox browser, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'this box has been selected!' - Value X</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'this box has been selected!' - Value O</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>error test</td>
+        <td>
+          tic tac toe test
+          <br />Expected 'X' to equal 'Oops, this box has been selected!'.
+
+        </td>
+      </tr>
+      <tr class="system-out">
+        <td colspan="3"><strong>System output:</strong><br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+</td>
+      </tr>
+    </table>
+    <hr/>
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tr class="overview">
+        <td colspan="3" title="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.31">Browser: Opera 32.0.1948 (Windows 8 0.0.0)</td>
+      </tr>
+      <tr class="overview">
+        <td colspan="3">Timestamp: 2015-09-20 17:55:34</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          17 tests / 
+          0 errors / 
+          1 failures / 
+          0 skipped / 
+          runtime: 0.018s
+        </td>
+      </tr>
+      <tr class="header">
+        <td>Status</td>
+        <td>Spec</td>
+        <td>Suite / Results</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>should show messenger 'Continue game!'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.003s</td>
+        <td>should show winner messenger - test01</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test02</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test03</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test04</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test05</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test06</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test07</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test08</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test09</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'There wasn't winner'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>move O to X, should show messenger 'X'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O in firefox browser, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show messenger 'this box has been selected!' - Value X</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'this box has been selected!' - Value O</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>error test</td>
+        <td>
+          tic tac toe test
+          <br />Expected 'X' to equal 'Oops, this box has been selected!'.
+    at Object.&lt;anonymous&gt; (C:/tic_tac_toe-master/jasmine/spec/tic_tac_toe_unit_test_spec.js:67:40)
+
+        </td>
+      </tr>
+      <tr class="system-out">
+        <td colspan="3"><strong>System output:</strong><br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+</td>
+      </tr>
+    </table>
+    <hr/>
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tr class="overview">
+        <td colspan="3" title="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; InfoPath.3)">Browser: IE 10.0.0 (Windows 8 0.0.0)</td>
+      </tr>
+      <tr class="overview">
+        <td colspan="3">Timestamp: 2015-09-20 17:55:35</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          17 tests / 
+          0 errors / 
+          1 failures / 
+          0 skipped / 
+          runtime: 0.005s
+        </td>
+      </tr>
+      <tr class="header">
+        <td>Status</td>
+        <td>Spec</td>
+        <td>Suite / Results</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'Continue game!'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test01</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test02</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test03</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test04</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test05</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test06</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test07</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show winner messenger - test08</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>should show winner messenger - test09</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'There wasn't winner'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move O to X, should show messenger 'X'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>move X to O in firefox browser, should show messenger 'O'</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'this box has been selected!' - Value X</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0s</td>
+        <td>should show messenger 'this box has been selected!' - Value O</td>
+        <td>tic tac toe test</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>error test</td>
+        <td>
+          tic tac toe test
+          <br />Expected 'X' to equal 'Oops, this box has been selected!'.
+   at Anonymous function (C:/tic_tac_toe-master/jasmine/spec/tic_tac_toe_unit_test_spec.js:67:9)
+
+        </td>
+      </tr>
+      <tr class="system-out">
+        <td colspan="3"><strong>System output:</strong><br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Chrome 45.0.2454 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Firefox 40.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Safari 5.1.7 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />Opera 32.0.1948 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />IE 10.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />IE 10.0.0 (Windows 8 0.0.0) LOG: 'The winner is: O'
+<br />IE 10.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />IE 10.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />IE 10.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />IE 10.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />IE 10.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />IE 10.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+<br />IE 10.0.0 (Windows 8 0.0.0) LOG: 'The winner is: X'
+</td>
+      </tr>
+    </table>
+    <hr/>
+  </body>
+</html>
